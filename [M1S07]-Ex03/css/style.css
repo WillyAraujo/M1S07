@@ -52,6 +52,10 @@ body {
     font-size: 18px;
 }
 
+.title a {
+    text-decoration: none;
+}
+
 .img-area {
     width: 400px;
     height: 400px;
@@ -63,7 +67,6 @@ body {
 .col-login {
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
 }
 
 form {
@@ -79,6 +82,7 @@ form input {
     border: 1px solid #cccc;
     padding-inline: 20px;
     background-color: #e9eff6;
+    font-family: "Jost", sans-serif;
 }
 
 .forgot-password  a {
@@ -117,8 +121,8 @@ form button:hover {
 .linha {
     display: flex;
     align-items: center;
-    width: 40%;
-    color: #cccc;
+    width: 50%;
+    color: #6c6c6c;
     padding: 60px 0px;
 }
 
@@ -127,7 +131,7 @@ form button:hover {
     flex-grow: 1;
     margin: 0;
     border: none;
-    border-top: 1px solid #cccc;
+    border-top: 1px solid #6c6c6c;
 }
 
 .texto {
